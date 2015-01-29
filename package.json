@@ -3,11 +3,14 @@
   "description": "Website crawler and differencer",
   "version": "0.3.1",
   "author": "Mike Moulton <mike@meltmedia.com>",
-  "contributors": [ 
-    { "name": "Nick Crohn", "email": "nick@meltmedia.com" }
+  "contributors": [
+    {
+      "name": "Nick Crohn",
+      "email": "nick@meltmedia.com"
+    }
   ],
   "dependencies": {
-    "simplecrawler": "0.0.x",
+    "simplecrawler": "git://github.com/timbowhite/node-simplecrawler",
     "first": "0.0.x",
     "mime": "1.2.x",
     "optimist": "0.3.x",
@@ -20,12 +23,22 @@
     "mocha": "*",
     "should": "*"
   },
-  "keywords": ["crawl", "differencer", "diff", "web", "website"],
+  "keywords": [
+    "crawl",
+    "differencer",
+    "diff",
+    "web",
+    "website"
+  ],
   "repository": "git://github.com/mmoulton/crawl",
   "main": "index",
-  "bin": { "crawl": "./bin/crawl" },
+  "bin": {
+    "crawl": "./bin/crawl"
+  },
   "scripts": {
     "test": "mocha"
   },
-  "engines": { "node":">= 0.8.0" }
+  "engines": {
+    "node": ">= 0.8.0"
+  }
 }
